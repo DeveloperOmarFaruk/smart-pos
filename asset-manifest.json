@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/smart-pos/static/css/main.9ed12cba.chunk.css",
+    "main.js": "/smart-pos/static/js/main.2e7dab5b.chunk.js",
+    "main.js.map": "/smart-pos/static/js/main.2e7dab5b.chunk.js.map",
+    "runtime-main.js": "/smart-pos/static/js/runtime-main.f5a261cb.js",
+    "runtime-main.js.map": "/smart-pos/static/js/runtime-main.f5a261cb.js.map",
+    "static/js/2.5607b191.chunk.js": "/smart-pos/static/js/2.5607b191.chunk.js",
+    "static/js/2.5607b191.chunk.js.map": "/smart-pos/static/js/2.5607b191.chunk.js.map",
+    "index.html": "/smart-pos/index.html",
+    "static/css/main.9ed12cba.chunk.css.map": "/smart-pos/static/css/main.9ed12cba.chunk.css.map",
+    "static/js/2.5607b191.chunk.js.LICENSE.txt": "/smart-pos/static/js/2.5607b191.chunk.js.LICENSE.txt",
+    "static/media/alice.7f1e9155.jpg": "/smart-pos/static/media/alice.7f1e9155.jpg",
+    "static/media/art-Tutul.eae24130.jpg": "/smart-pos/static/media/art-Tutul.eae24130.jpg",
+    "static/media/burger.22daa90a.jpg": "/smart-pos/static/media/burger.22daa90a.jpg",
+    "static/media/latte.8510c8be.jpg": "/smart-pos/static/media/latte.8510c8be.jpg",
+    "static/media/pasta.6f708c84.jpg": "/smart-pos/static/media/pasta.6f708c84.jpg",
+    "static/media/spicy.4bd573da.jpg": "/smart-pos/static/media/spicy.4bd573da.jpg",
+    "static/media/tim.cad7fa88.jpg": "/smart-pos/static/media/tim.cad7fa88.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5a261cb.js",
+    "static/js/2.5607b191.chunk.js",
+    "static/css/main.9ed12cba.chunk.css",
+    "static/js/main.2e7dab5b.chunk.js"
+  ]
+}

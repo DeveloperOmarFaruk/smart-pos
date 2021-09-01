@@ -1,0 +1,159 @@
+.sidebar-section {
+    border-right: 1px solid #ccc;
+    height: 100vh;
+    position: fixed;
+    padding: 20px 0px;
+}
+
+.sidebar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--Red);
+}
+
+.sidebar-logo i {
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 17px;
+}
+
+.sidebar-logo h3 {
+    padding: 0px 0px 0px 30px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.sidebar-logo h3 span {
+    color: var(--Black);
+}
+
+.sidebar-section ul {
+    list-style: none;
+}
+
+.sidebar-links {
+    color: var(--Black);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar-links i {
+    padding: 0px 20px 0px 0px;
+    color: var(--Gray);
+}
+
+.sidebar-items {
+    padding: 15px 0px 15px 15px;
+    margin: 0px 20px 0px 0px;
+}
+
+.sidebar-items:hover {
+    background-color: var(--Yellow);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.other {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+    color: var(--Gray);
+}
+
+.notification-count {
+    margin-left: 40px;
+    padding: 6px 13px;
+    background-color: var(--Yellow);
+    border-radius: 50%;
+}
+
+.profile-card,
+.sidebar-footer {
+    text-align: center;
+}
+
+.profile-card {
+    margin: 20px 30px 10px 30px;
+    padding: 10px;
+    box-shadow: 0 0.8rem 1.8rem hsl(0 0% 0% / 20%);
+    border-radius: 20px;
+}
+
+.profile-card img {
+    width: 23%;
+    border-radius: 50%;
+}
+
+.profile-title-name,
+.profile-sub-title-name {
+    padding: 0;
+    margin: 0;
+}
+
+.profile-title-name {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.profile-sub-title-name {
+    font-size: 12px;
+    color: var(--Gray);
+    font-weight: 400;
+}
+
+.profile-card button {
+    padding: 10px;
+    width: 100%;
+    margin: 20px 0px 10px 0px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.profile-card button:hover {
+    background-color: var(--Yellow);
+}
+
+.sidebar-footer {
+    font-size: 12px;
+    color: var(--Gray);
+    margin: 20px 0px;
+}
+
+@media (max-width: 1024px) {
+    .sidebar-section {
+        overflow-y: scroll;
+    }
+}
+
+
+/* Scroll style */
+
+
+/* .contents-box {
+    border: 2px solid var(--Gray);
+    overflow-y: scroll;
+    height: 71%;
+    width: 90%;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.contents-box::-webkit-scrollbar {
+    width: 11px;
+}
+
+.contents-box::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+
+.contents-box::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+} */

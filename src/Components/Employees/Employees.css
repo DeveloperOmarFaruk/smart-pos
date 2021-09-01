@@ -1,0 +1,81 @@
+.employees-section {
+    margin: 0px 0px 0px 10px;
+    width: 55%;
+    padding: 25px;
+    box-shadow: 0 0.8rem 1.8rem hsl(0 0% 0% / 20%);
+    border-radius: 35px;
+}
+
+.employee-title,
+.employee-sub-title,
+.employee-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.employee-details {
+    padding: 5px 0px 5px 0px;
+}
+
+.employee-details-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee-title h3 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.select {
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    outline: none;
+    color: var(--Gray);
+}
+
+.employee-sub-title p {
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--Gray);
+    padding: 15px 0px;
+}
+
+.employee-details-left img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.employee-details-left-name p {
+    padding: 3px 7px 3px 3px;
+    font-size: 10px;
+    color: var(--Gray);
+}
+
+.employee-details-left-name .drinks {
+    background-color: rgb(163, 235, 229);
+}
+
+.employee-details-left-name h3 {
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 3px 0px 0px 0px;
+}
+
+.employee-details-left-name {
+    padding: 0px 0px 0px 10px;
+}
+
+.employee-details-left-name p,
+h3 {
+    margin: 0px 0px 0px 0px;
+}
+
+.employee-details-right p {
+    font-weight: bold;
+    font-size: 18px;
+}

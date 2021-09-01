@@ -1,0 +1,78 @@
+.order-customer-section {
+    width: 24%;
+}
+
+.order-customer-order,
+.order-customer-customer {
+    margin: 10px 10px 10px 10px;
+    padding: 22px;
+    box-shadow: 0 0.8rem 1.8rem hsl(0 0% 0% / 20%);
+    border-radius: 35px;
+    /* height: 101px; */
+}
+
+.order-customer-customer {
+    margin-top: 20px;
+}
+
+.order-customer-order-name-details,
+.order-customer-customer-name-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fa-calendar-check,
+.fa-user-plus {
+    padding: 5px 5px;
+    background-color: var(--Yellow);
+    border-radius: 5px;
+    height: 10px;
+    font-size: 12px;
+    margin: 0px 5px 0px 0px;
+    color: var(--Black);
+}
+
+.fa-calendar-check {
+    background-color: var(--Red);
+    color: var(--White);
+}
+
+.order-customer-order-name-details h4,
+p,
+.order-customer-customer-name-details h4,
+p {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.order-customer-order-name-details h4,
+.order-customer-customer-name-details h4 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.order-customer-order-name-details p,
+.order-customer-customer-name-details p {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--Red);
+}
+
+.order-customer-customer-name-details p {
+    color: rgb(15, 209, 15);
+}
+
+.percent {
+    padding: 0px 0px 0px 30px;
+}
+
+.order-customer-order h3,
+.order-customer-customer h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 0px 0px 0px;
+    border-bottom: 2px solid #ccc;
+}

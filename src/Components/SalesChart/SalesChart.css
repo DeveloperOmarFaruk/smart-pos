@@ -1,0 +1,12 @@
+.sales-chart-section {
+    margin: 10px 0px 0px 0px;
+    width: 45%;
+    padding: 25px;
+    box-shadow: 0 0.8rem 1.8rem hsl(0 0% 0% / 20%);
+    border-radius: 35px;
+}
+
+.sales-chart-section h3 {
+    font-size: 16px;
+    font-weight: bolder;
+}

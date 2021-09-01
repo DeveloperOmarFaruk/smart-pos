@@ -1,0 +1,23 @@
+.income-chart-section {
+    margin: 10px 10px 0px 25px;
+    width: 31%;
+    padding: 25px;
+    box-shadow: 0 0.8rem 1.8rem hsl(0 0% 0% / 20%);
+    border-radius: 35px;
+}
+
+.income-chart-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.income-chart-title h3 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.donut-chart {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}

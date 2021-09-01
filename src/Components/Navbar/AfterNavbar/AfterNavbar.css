@@ -1,0 +1,35 @@
+.after-navbar-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.after-navbar-left h1 {
+    font-weight: bolder;
+}
+
+.after-navbar-right ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.after-nav-items {
+    list-style: none;
+    padding: 10px 15px 5px 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+.after-navbar-links {
+    color: #ccc;
+    text-decoration: none;
+}
+
+
+/* .active {
+    border-bottom: 3px solid var(--Yellow);
+    color: var(--Black);
+    font-weight: bold;
+    padding: 0px 5px 5px 5px;
+} */

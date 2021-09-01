@@ -1,0 +1,29 @@
+.dashboard-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sidebar {
+    width: 25%;
+}
+
+.dashboard {
+    width: 75%;
+    padding: 0px 80px;
+}
+
+.chart {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 20px 0px 25px 0px;
+}
+
+.trending-employees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 25px 0px;
+}
